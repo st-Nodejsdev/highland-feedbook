@@ -17,3 +17,5 @@ Assignees 选择负责你这部分的开发者 例如是移动端就可以assign
 Assignees 你希望参加的开发的部分负责的开发者</br>
 我们会在1到2周内给你答复</br>
 DCO全文:请看DCO.md</br>
+## 关于
+更多请关注public-docs库
