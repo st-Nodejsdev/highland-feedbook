@@ -7,8 +7,11 @@ Assignees 选择负责你这部分的开发者 例如是移动端就可以assign
 选择适合你问题的Label</br>
 ## 工单模板
 **描述问题**</br>
+</br>
 **如何复现**</br>
+</br>
 **期待效果**</br>
+</br>
 ## 申请参与
 新建工单-签署DCO(Developer Certificate Of Origin)</br>
 Assignees 你希望参加的开发的部分负责的开发者</br>
