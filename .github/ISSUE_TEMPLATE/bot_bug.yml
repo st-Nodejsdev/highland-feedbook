@@ -42,7 +42,7 @@ body:
   - type: textarea
     attributes:
       label: 请描述您的操作步骤。
-      description: 尽可能地描述您正在进行的操作, 以便我们进行复现。
+      description: 尽可能地描述您正在进行的操作, 以便我们进行复现。可以附上指令消息及机器人返回内容截图方便我们确认。
     validations:
       required: false
   - type: markdown
