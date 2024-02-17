@@ -1,0 +1,37 @@
+name: 反馈机器人 Bug
+description: 我遇到了机器人的 Bug, 需要帮助!
+title: "Bug: "
+labels: ["bot", "bug", "need-confirm"]
+assignees:
+  - staytomorrow
+body:
+  - type: checkboxes
+    attributes:
+      label: 感谢您的反馈！在提交之前，请您 **确认以下事项**。
+      options:
+        - label: 我已经确认这个 Bug 是由于机器人本身引起的。
+          required: true
+        - label: 我已经搜索过 [现有的 Issue 列表](https://github.com/st-Nodejsdev/highland-feedbook/issues?q=is%3Aissue) 并确认这个 Bug 还没有被其他人提交过。
+          required: false
+  - type: input
+    attributes:
+      label: 请问您正在使用哪个功能?
+      description: 请填写您正在使用的指令。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 好的。现在请描述您遇到的问题。
+      description: 请尽量详细地描述您遇到的问题。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 请描述您的操作步骤。
+      description: 尽可能地描述您正在进行的操作, 以便我们进行复现。
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        好的, 非常感谢您的反馈。现在请您点击下方的 Submit 按钮提交 Issue。
