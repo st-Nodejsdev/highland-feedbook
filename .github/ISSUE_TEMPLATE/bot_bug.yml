@@ -1,18 +1,32 @@
 name: 反馈机器人 Bug
 description: 我遇到了机器人的 Bug, 需要帮助!
-title: "Bug: "
+title: "Bug (Bot): "
 labels: ["bot", "bug", "need-confirm"]
 assignees:
   - staytomorrow
 body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎 / Welcome / いらっしゃいませ / Willkommen
+
+        感谢您向我们反馈有关海蓝德小助手的 Bug。
+
+        首先, 请您在上面的标题后添加内容, 简短填写您的问题。
+
+        接下来, 请您仔细核对以下事项。
   - type: checkboxes
     attributes:
-      label: 感谢您的反馈！在提交之前，请您 **确认以下事项**。
+      label: 请仔细核对以下事项。
       options:
         - label: 我已经确认这个 Bug 是由于机器人本身引起的。
           required: true
         - label: 我已经搜索过 [现有的 Issue 列表](https://github.com/st-Nodejsdev/highland-feedbook/issues?q=is%3Aissue) 并确认这个 Bug 还没有被其他人提交过。
           required: false
+  - type: markdown
+    attributes:
+      value: |
+        好的。接下来, 请您填写问题的相关内容。
   - type: input
     attributes:
       label: 请问您正在使用哪个功能?
@@ -34,4 +48,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        好的, 非常感谢您的反馈。现在请您点击下方的 Submit 按钮提交 Issue。
+        好的, 非常感谢您的反馈。
+
+        在最后提交前, 请您再次核对上述内容, 确保您已经填写了所有必要的信息且准确无误。
+
+        如有问题, 我们会在您的 Issue 下方留言, 请您保持关注。
+
+        如您确认没有问题, 请您勾选下方的复选框, 并点击 "Submit new issue" 提交您的 Issue。
+  - type: checkboxes
+    attributes:
+      label: 确认无误
+      options:
+        - label: 我已经确认上述内容无误, 并且我已经填写了所有必要的信息。
+          required: true
