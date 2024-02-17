@@ -1,0 +1,63 @@
+name: 申请加入组织
+description: 我想助你们一臂之力!
+title: "Request (Join): 申请加入组织"
+assignees:
+  - 
+labels: ["join-request", "need-confirm"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎 / Welcome / いらっしゃいませ / Willkommen
+
+        感谢您对我们组织的关注。
+
+        请您确认以下事项。
+  - type: checkboxes
+    attributes:
+      label: 请您核对以下事项。
+      options:
+        - label: 我已经阅读了 [贡献者守则](https://github.com/st-Nodejsdev/highland-feedbook/blob/main/CONTRIBUTING.md) 并确认遵守。
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        好的。接下来, 请您填写有关您的信息。
+  - type: input
+    attributes:
+      label: 我们该如何称呼您?
+      description: 呢称即可, 不必在互联网暴露您的真实姓名。
+      placeholder: 张三
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 您的邮箱?
+      description: 您的邮箱将在我们处理您的申请后清空。
+      placeholder: example@example.com
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 请简单介绍您自己。
+      description: 不需要太过详细, 但请确保您的介绍能让我们对您有一个大致的了解。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 请描述您想加入贡献的原因。
+      description: 也不必太过详细, 但请确保您的描述能让我们对您的动机有一个大致的了解。
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        好的, 非常感谢您的申请。
+
+        在最后提交前, 请您再次核对上述内容, 确保您**已经填写了所有必要的信息且准确无误**。
+
+        我们会在您的 Issue 下方留言, 或通过邮箱进一步联系您, 请您**保持关注**。
+
+        并建议您加入我们的 QQ 群组, 方便进一步联系。
+
+        如您确认没有问题, 请您勾选下方的复选框, 并点击 "Submit new issue" 提交您的申请。
