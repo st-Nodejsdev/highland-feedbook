@@ -1,21 +1,13 @@
-# 海兰德反馈工单
-## 提交流程
-如果已有的Issue无法描述你的问题</br>
-Issue页面-New Issue 新建工单</br>
-Assignees 选择负责你这部分的开发者 例如是移动端就可以assign "silverwolf233“</br>
-详细描述问题</br>
-选择适合你问题的Label</br>
-## 工单模板
-**描述问题**</br>
-</br>
-**如何复现**</br>
-</br>
-**期待效果**</br>
-</br>
-## 申请参与
-新建工单-签署DCO(Developer Certificate Of Origin)</br>
-Assignees 你希望参加的开发的部分负责的开发者</br>
-我们会在1到2周内给你答复</br>
-DCO全文:请看DCO.md</br>
-## 关于
-更多请关注public-docs库
+# Issue 集中反馈地
+
+为了解决没有地方反馈相关 Bug 的问题, 我们使用本仓库进行处理。
+
+## 开始反馈
+
+[点击此处](https://github.com/st-Nodejsdev/highland-feedbook/issues/new/choose) 开始反馈。
+
+## 加入组织
+
+请先阅读 [CONTRIBUTING](CONTRIBUTING.md) 并遵守相关规则。
+
+如您想要加入, 请您 ... (待确认方式)。
