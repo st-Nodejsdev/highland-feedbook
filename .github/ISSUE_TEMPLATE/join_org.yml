@@ -2,7 +2,7 @@ name: 申请加入组织
 description: 我想助你们一臂之力!
 title: "Request (Join): 申请加入组织"
 assignees:
-  - 
+  - staytomorrow
 labels: ["join-request", "need-confirm"]
 body:
   - type: markdown

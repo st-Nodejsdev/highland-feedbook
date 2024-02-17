@@ -10,4 +10,4 @@
 
 请先阅读 [CONTRIBUTING](CONTRIBUTING.md) 并遵守相关规则。
 
-如您想要加入, 请您 ... (待确认方式)。
+如您想要加入, 请您 [点击此处](https://github.com/st-Nodejsdev/highland-feedbook/issues/new?assignees=staytomorrow&labels=join-request%2Cneed-confirm&projects=&template=join_org.yml) 开始申请。
