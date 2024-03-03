@@ -1,5 +1,5 @@
-name: 反馈机器人 Bug
-description: 我遇到了机器人的 Bug, 需要帮助!
+name: 反馈机器人 Bug(海兰德)
+description: 我遇到了海兰德小助手的 Bug, 需要帮助!
 title: "Bug (Bot): "
 labels: ["bot", "bug", "need-confirm"]
 assignees:
